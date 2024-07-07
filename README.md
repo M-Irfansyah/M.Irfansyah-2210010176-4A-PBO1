@@ -169,6 +169,9 @@ for (int i = 0; i < buku.length; i++) {
                 String judul = scanner.nextLine();
                 System.out.print("Masukkan No ISBN: ");
                 String isbn = scanner.nextLine();
+
+                 System.out.println("Data Buku Ke " + (i + 1));
+                System.out.println(buku[i].tampilkanInfo());
 ```
 
 13. **Array** adalah struktur data yang digunakan untuk menyimpan beberapa nilai dalam satu variabel. Pada kode ini, `MahasiswaDetail[] mahasiswas = new MahasiswaDetail[2];` adalah contoh penggunaan array.
